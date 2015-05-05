@@ -1,0 +1,8 @@
+This program creates a producer that reads from a producer file to a consumer file using a number of consumer processes set by a parameter using semaphore locks.
+
+Usage:
+master [n]
+
+The number of consumers will be set to 10 if no parameter is set. n must be between 1 and 18
+
+
